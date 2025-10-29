@@ -1,8 +1,8 @@
 import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
-  output: 'export',
-  trailingSlash: true, // This helps with static hosting
+  // output: 'export',
+  // trailingSlash: true, // This helps with static hosting
   typescript: {
     ignoreBuildErrors: true,
   },
